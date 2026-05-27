@@ -1,0 +1,37 @@
+#datos estructurados
+## listas
+--listas de tipo mixto 
+python nos permite acceder a esete lista a traves de indices 
+
+
+
+
+
+
+### creacion de listas 
+para listas solo basta encierre los elimentos  que deseamos almacenar con  ´[]´ inmiadatamente despues de operador de asegnacion ´=´   
+´´´pyton 
+# creamos una lista vacia 
+#lista:str=[] # lista vacia 
+## OJON:los elementos de una lista se separan por comas 
+lista_numerica:lits[int]=[3,8,6]# listas de numeros de numeros enteros
+lista_num_mixto :tist[str]=['eduardo','kevin']
+## lista_mixta 
+lista_mixta:list=['pedro',20,false,1.67]
+´´´
+###accider y modeficar elimentos de una lista
+para poder acceder a un elemento de la lista con la indices que python le asgna a cada elementotenemos
+- los elementopositivos (comienzan de 0 y van de esquierda a derecha )
+-los indices negativos(comienzan de -1 y van de derecha aesquierda)
+con estos endices podemos accider al valor del elemento y tambien podemos modeficarlos 
+tenemos dos formas de aceder a los elementios:
+- por indice (pocitivo)
+´´´pyton
+
+frutas:lista[str]=[ 🍎,🍌,🍒,🍑]
+#pocicion o indice
+#acider al tercer elemento
+print(frutas[2])
+#acceder al 2 elementos por su indece negativo 
+print(fruta[-3])
+###diccionario
